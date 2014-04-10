@@ -1,0 +1,509 @@
+    1  pwd
+    2  git
+    3  ls
+    4  pwd
+    5  man yum
+    6  mkdir rohit_git
+    7  ls
+    8  cd rohit_git/
+    9  ls
+   10  git init
+   11  git
+   12  git status
+   13  vi file1.py
+   14  git status
+   15  tree
+   16  sudo tree
+   17  git add *
+   18  git show
+   19  git status
+   20  git commit
+   21  git show
+   22  git pulkl
+   23  git pull
+   24  git pull git@github.com:grohit/grohit_sample.git
+   25  ls
+   26  git@github.com:grohit/Linux_sample.git
+   27  git clone git@github.com:grohit/Linux_sample.git
+   28  ls
+   29  ssh-keygen -t rsa -C "grohit@zeomega.com"
+   30  cd .ssh
+   31  cd ..
+   32  cd .ssh
+   33  ls
+   34  logout
+   35  cd ..
+   36  ssh-keygen -t rsa
+   37  cd .ssh
+   38  ls
+   39  vi id_rsa.pub
+   40  cd ..
+   41  cd rohit_git/
+   42  ls
+   43  git clone git@github.com:grohit/Linux_sample.git
+   44  cd .ssh
+   45  cd ..
+   46  cd .ssh
+   47  cd id_rsa.pub
+   48  vi id_rsa.pub
+   49  cat id_rsa.pub
+   50  ssh-rsa AAAABsh-rsa AAAAB4NzaC1yc2EAAAABIwAAAQEAqI1EYPUelFFQlNvuxLjuc1Dr3KI78hi7zJSaqgOKsLoeOryoAnwbWjiEvlphSOy8x3fD/aeUGIFJOb1lNru5fNZ4q7DFrFvs5Nrr4wLaTxdtoSfo7EVYkRk9xFsy0qYUd+S5eCdoYj4SoF2T3nTWTQRy5CFh+KagvcEbZJjZJ/0w7MCV7qPTNlafwK/i/BW2RUUINmSTPBadqPKBbAEexWrZ1pzh+scaLhzR0+1c8roou98SpZuqRtQU9HOZeZ7uBf3ZUuCPwoiKKe32+Xmow3PVQQ7pAymRDx5kkw5mIQQTI+WL3IxH/Vgxf917HfFvVIPZeL01GiAlVNzD5RDAMQ== grohit@ip-10-101-1-198
+   51  cd ..
+   52  rm -rf .ssh
+   53  ls
+   54  cd .ssh
+   55  ssh-keygen -t rsa
+   56  cd .ssh
+   57  ls
+   58  cat id_rsa.pub
+   59  ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAyReqqd7PGBA1qu4hNlg3IsMuHgt4m3UmHkYyCIXzRCLnKhjVfnvdYlK3TA8ctocGpjs3UqDwoDgr1IISBQS2hGG+Mx4xoFAKuvPUobMqZ2HNntKpkvRMaqn1Y2jUQAh/ASbcSijsAvsutDCMMVT/FPNxvWuMJZXMymmMReuSLbwTnmm3y1/Rp29GqIAUfbnTPdMgaMQzXRvWiIFcK72Krl1z45YYjawN9KSd0FxupOy5zugb2KIi5rtwPkg+aW3PF1xn3DcxB5bcjxyZIAwd7oztjgJHY2cyirkMhA3X5+5GWXlp2DyMql6bEbnKZiyC6v9Nbj6CZ9KPHPjjvGpbLw== grohit@ip-10-101-1-198
+   60  clear
+   61  git clone git@github.com:grohit/Linux_sample.git
+   62  ls
+   63  rm -rf Linux_sample
+   64  cd ..
+   65  ls
+   66  cd rohit_git/
+   67  ls
+   68  git clone git@github.com:grohit/Linux_sample.git
+   69  ls
+   70  cd Linux_sample/
+   71  ls
+   72  file file1.py
+   73  file 
+   74  pwd
+   75  info man
+   76  apropos man
+   77  apropos ls
+   78  apropos passwd
+   79  ls
+   80  ls -alh
+   81  cd .git
+   82  ls
+   83  vi branches
+   84  cat config
+   85  git config --help
+   86  git config --config
+   87  git config --config --l
+   88  git config --config--l
+   89  git config -e
+   90  git config --local
+   91  git config --local -e
+   92  git config -e --local 
+   93  git config -e --global 
+   94  vi prog.py
+   95  git show
+   96  git status
+   97  git log
+   98  git add *
+   99  ls
+  100  rm -rf prog.py
+  101  ls
+  102  cd ..
+  103  vi prog.py
+  104  git status
+  105  git add prog.py
+  106  git status
+  107  git commit
+  108  git show
+  109  mkdir a
+  110  cd a
+  111  cd ..
+  112  mv prog.py a
+  113  ls
+  114  cd a
+  115  ls
+  116  cd ..
+  117  ls
+  118  man cp
+  119  cp a/prog.py b/
+  120  cp a/prog.py b/prog.py
+  121  mkdir b
+  122  cp a/prog.py b
+  123  cd b
+  124  ls
+  125  vi prog.py
+  126  git status
+  127  git add
+  128  git add .
+  129  git status
+  130  cd ..
+  131  cd b
+  132  git commit
+  133  cd ..
+  134  diff --git a/prog.py b/prog.py
+  135  diff a/prog.py b/prog.py
+  136  cd ..
+  137  mkdir rohit_build
+  138  ls
+  139  cd rohit_build/
+  140  ls
+  141  git clone git@github.com:zeomega/jiva_buildout.git
+  142  ls
+  143  cd jiva_buildout/
+  144  git branch -a
+  145  git checkout rel_5.6
+  146  git branch
+  147  python --version
+  148  ./installpy26.sh -s
+  149  python --version
+  150  ls
+  151  zebootstrap.py
+  152  python2.6 zebootstrap.py
+  153  ls
+  154  cd ./bin
+  155  ls
+  156  cd ..
+  157  ./bin/buildout -c linux_dev.cfg
+  158  warning: no previously-included files matching '*.pyo' found anywhere in distrib                                              lo
+  159  logout
+  160  exit
+  161  ls
+  162  ls --all
+  163  vi .bash_history 
+  164  history
+  165  ls -all
+  166  vi .bash_profile
+  167  ls -all
+  168  vi .gitconfig
+  169  vi .gitconfig --global
+  170  clear
+  171  ls -a
+  172  ls -l
+  173  ls -h
+  174  ls -alh
+  175  ls /etc
+  176  ls rohit_build
+  177  ls rohit_build/jiva_buildout/
+  178  ls ..
+  179  ls .
+  180  ls
+  181  pwd
+  182  python
+  183  ls
+  184  git show
+  185  lsmod 
+  186  lsattr 
+  187  ddirname
+  188  dirname
+  189  domainname 
+  190  man man
+  191  info man
+  192  whatis ls
+  193  whatis man
+  194  whatis apropos
+  195  apropos
+  196  apropos whatis
+  197  makewhatis
+  198  apropos browser
+  199  git-web--browse
+  200  opera
+  201  yum install opera
+  202  yum install git
+  203  sudo yum install opera
+  204  mozilla
+  205  sudo yum install mozilla
+  206  sudo yum install /usr/bin/mozilla
+  207  sudo yum install git
+  208  apropos software
+  209  apropos git
+  210  apropos sudo
+  211  sudoers
+  212  whatis cat
+  213  cat a/prog.py b/prog.py
+  214  ls
+  215  cd rohit_build/
+  216  cd ..
+  217  ls
+  218  cd rohit_git/
+  219  ls
+  220  cd Linux_sample/
+  221  ls
+  222  cat a/prog.py b/prog.py
+  223  cat b/prog.py
+  224  cd..
+  225  cd ..
+  226  cat --help
+  227  ls /
+  228  cd ./bin
+  229  cd /
+  230  ls
+  231  cd bin
+  232  ls
+  233  ping
+  234  ping 10.101.1.198
+  235  cd ..
+  236  cd 
+  237  ~ls
+  238  ls
+  239  cd :
+  240  yum list recent
+  241  yum list
+  242  sudo yum install /usr/bin/mozilla
+  243  cd rohit_git/
+  244  ls
+  245  file prog.py
+  246  file file1.py
+  247  pwd
+  248  cd ..
+  249  logout
+  250  login
+  251  ls
+  252  passwd
+  253  psswd
+  254  exit
+  255  login
+  256  passwd
+  257  cd blah
+  258   cd ..
+  259  pwd
+  260  cd ..
+  261  pwd
+  262  cd home
+  263  pwd
+  264  cd /
+  265  ~cd 
+  266  ~cd ~~
+  267  ~cd ~
+  268  cd ~
+  269  ls
+  270  ls rohit_git
+  271  pwd
+  272  cd
+  273  cd rohit_git
+  274  cd
+  275  cd root
+  276  cd ..
+  277  ls
+  278  cd root
+  279  sudo cd root
+  280  su cd root
+  281  cd bin
+  282  cd ..
+  283  cd root
+  284  sudo cd root
+  285  ls root
+  286  sudo ls root
+  287  cd
+  288  ls
+  289  pwd
+  290  ls
+  291  pwd
+  292  .ssh
+  293  cd .ssh
+  294  ls
+  295  vi id_rsa.pub
+  296  cd ..
+  297  ls
+  298  cd rohit_git
+  299  ls
+  300  git pull
+  301  git diff
+  302  ls
+  303  cd Linux_sample/
+  304  ls
+  305  cd a
+  306  ls
+  307  vi prog.py
+  308  git status
+  309  git add
+  310  git add .
+  311  git diff
+  312  diff --git a/prog.py b/prog.py
+  313  diff a/prog.py b/prog.py
+  314  cd ..
+  315  git commit
+  316  ls
+  317  diff a/prog.py  b/prog.py 
+  318  vi a/prog.py
+  319  vi b/prog.py
+  320  git diff
+  321  git diff --cached
+  322  git checkout --prog.py
+  323  cd ..
+  324  cd Linux_sample/
+  325  cd a
+  326  git checkout --prog.py
+  327  git checkout -- prog.py
+  328  vi prog.py
+  329  git checkout -- prog.py
+  330  git checkout --prog.py
+  331  git checkout --track --prog.py
+  332  git checkout --track prog.py
+  333  git checkout --b prog.py
+  334  git checkout -b prog.py
+  335  git branch
+  336  git checkout master
+  337  git config -e
+  338  git st
+  339  git add .
+  340  git st
+  341  git commit
+  342  git add *
+  343  git commit
+  344  git st
+  345  cls
+  346  clear
+  347  git st
+  348  git log
+  349  git log -pretty=full
+  350  git log --pretty=full
+  351  git log
+  352  git log --pretty=full
+  353  git log
+  354  git log --pretty=full
+  355  git checkout -b fancy
+  356  cd ..
+  357  git branch
+  358  git log --pretty=oneline --graph
+  359  git log --pretty=oneline 
+  360  git log --pretty 
+  361  git log --pretty = oneline
+  362  git log --pretty =oneline
+  363  git log --pretty=oneline
+  364  clear
+  365  git log --pretty=oneline --graph
+  366  git goback  e7719b4acca2ed034d2fc09d7adbcd82bb7fff26
+  367  git --help goback
+  368  git --help 
+  369  git grep "res"
+  370  git pull
+  371  git push
+  372  git branch
+  373  git pull
+  374  git push fancy
+  375  git push --help
+  376  git log --pretty=oneline
+  377  git reset e7719b4acca2ed034d2fc09d7adbcd82bb7fff26
+  378  vi prog.py
+  379  git status
+  380  git --pretty
+  381  git log --pretty
+  382  git --help
+  383  git tag 
+  384  git reset e7719b4acca2ed034d2fc09d7adbcd82bb7fff26
+  385  ls
+  386  vi prog.py
+  387  git add .
+  388  git commit
+  389  vi prog.py
+  390  git status
+  391  git push
+  392  git pull
+  393  git push
+  394  git pull
+  395  git branck
+  396  git branch
+  397  git checkout master
+  398  git pull
+  399  vi prog.py
+  400  git add .
+  401  git commit
+  402  git push
+  403  git reset 22fc3a91
+  404  git reset 22fc3a91ecf27c644fa915d8ff55d87ce957b51b
+  405  ls
+  406  vi prog.py
+  407  git log
+  408  python
+  409  ls
+  410  python
+  411  ls
+  412  git pull
+  413  ls
+  414  ls -alh
+  415  git pull
+  416  ls
+  417  mkdir a
+  418  ls
+  419  git pull
+  420  ls
+  421  cd a
+  422  ls
+  423  cd ..
+  424  python
+  425  ls
+  426  man rm
+  427  cd /etc
+  428  ls
+  429* 
+  430  ls
+  431  vi sudoers
+  432  vi ./etc
+  433  ls
+  434  cd sudoers
+  435  vi sudo.conf
+  436  ls
+  437  cd ..
+  438  cd ~
+  439  ls
+  440  cd rohit_git
+  441  git remote
+  442  git remote -v
+  443  git branch
+  444  git pull origin master
+  445  git pull master
+  446  ls
+  447  cd Linux_sample/
+  448  git remote -v
+  449  git pull origin master
+  450  ls
+  451  cd a
+  452  ls
+  453  cd ..
+  454  git branch
+  455  ls
+  456  cd b
+  457  ls
+  458  cd ..
+  459  ls
+  460  cd a
+  461  ls
+  462  git remote -v
+  463  git pull origin  git@github.com:grohit/Linux_sample.git
+  464  git pull origin git@github.com:grohit/Linux_sample.git
+  465  ls
+  466  cd ..
+  467  git remote -v
+  468  git log
+  469  ls
+  470  ls a/
+  471  git st
+  472  git stash
+  473  git config --global user.name "rohit vernekar"
+  474  git config --global user.email "grohit@zeomega.com"
+  475  git stash
+  476  ls
+  477  ls a/
+  478  git stash --info
+  479  stash --info
+  480  git --info
+  481  man git
+  482  ls a/
+  483  git stash apply
+  484  ls a/
+  485  git stash
+  486  git stash list
+  487  vim prog.py 
+  488  yum install vim
+  489  vi a/prog.py 
+  490  git status
+  491  git diff
+  492  git stash list
+  493  git status
+  494  git stash
+  495  git pull origin master
+  496  vi a/prog.py 
+  497  git stash apply
+  498  vim a/prog.py 
+  499  vi a/prog.py 
+  500  git st
+  501  git commit
+  502  git commit -a
+  503  git st
+  504  git remote -v
+  505  git push origin master
+  506  git history
+  507  history
+  508  history | tee linuxpractice.txt
+7[?47h
