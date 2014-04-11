@@ -606,3 +606,28 @@
   606  bin/buildout -c linux_dev.cfg
   607  history
   608  history | tee linux_prac2.txt
+  608  vi .bash_history
+  609  cd /opt
+  610  ls
+  611  cd ~
+  612  echo $PATH
+  613  cd rohit_git/
+  614  echo $PATH
+  615  cd
+  616  cd /
+  617  echo $PATH
+  618  cd ~
+  619  -a ls
+  620  ls
+  621  cd rohit_git
+  622  ls
+  623  wc file1.py
+  624  wc -l file1.py
+  625  cd ..
+  626  ls
+  627  cd rohit_build/
+  628  git pull git@github.com:grohit/Linux_sample.git
+  629  ls
+  630  cd jiva_buildout/
+                                                           
+                                       
