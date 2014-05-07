@@ -1,0 +1,14 @@
+==========================
+Creating sudo user:
+==========================
+
+    1  useradd grohit
+    2  echo "Jiva@123"|passwd --stdin grohit
+    3  vim /etc/sudoers
+    4  visudo
+       make changes int his file
+    5  su - grohit
+    6  visudo
+    7  su - grohit
+    8  history
+    9  sudo su -
